@@ -30,17 +30,29 @@
           </nav>
         </div>
       </div>
-      <div class="contact-section">
-        <div class="contact-section-text">
-          <h2>Benimle iletişime geçmek istemene sevindim!</h2>
-          <p>
-            Aşağıdaki <span class="color-text"> 'Bana Ulaş'</span> butonu
-            aracılığıyla benimle iletişime geçebilirsin.
-          </p>
-        </div>
-        <div class="contact-section-button">
-          <a href="mailto:yzarbun@gmail.com">Bana Ulaş</a>
-        </div>
+      <div class="contact-page-title">
+        <h2>Aşağıdaki formu doldurarak da mesajını bana iletebilirsin.</h2>
+      </div>
+
+      <div class="contact-page-form">
+        <form>
+          <label for="fname">İsmin</label><br />
+          <input type="text" id="fnmae" name="fname" /><br />
+          <label for="lname">Soyismin</label><br />
+          <input type="text" id="lnma" name="lname" /><br />
+          <label for="email">E-posta adresin</label><br />
+          <input type="email" id="email" name="email" /><br />
+          <label for="mobile">Cep telefonun</label><br />
+          <input type="number" id="mobile" name="number" /><br />
+          <p>Seninle nasıl iletişime geçmemi tercih edersin?</p>
+          <input type="radio" id="eposta" name="contact-pref" />
+          <label for="eposta">E-posta</label>
+          <input type="radio" id="tel" name="contact-pref" />
+          <label for="tel">Telefon</label><br /><br />
+          <label for="message">Mesajın</label><br /><br />
+          <input type="text" id="message" name="message" /><br /><br />
+          <input type="submit" name="message" id="submit-button" />
+        </form>
       </div>
       <div class="footer-section">
         <a href="https://www.airbnb.com.tr/" target="_blank"
